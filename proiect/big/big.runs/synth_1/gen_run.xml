@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1607443462">
+  <File Type="PA-TCL" Name="modulul_principal.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="modulul_principal_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="modulul_principal_reports.tcl"/>
+  <File Type="RDS-RDS" Name="modulul_principal.vds"/>
+  <File Type="RDS-UTIL" Name="modulul_principal_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="modulul_principal_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="modulul_principal.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="modulul_principal_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="modulul_principal_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/surse-proiect/debounce.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../surse-proiect/debounce.vhd"/>
+        <Attr Name="ImportTime" Val="1606994337"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/surse-proiect/debounce_clasic.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../surse-proiect/debounce_clasic.vhd"/>
+        <Attr Name="ImportTime" Val="1607077979"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/surse-proiect/displ7seg.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../surse-proiect/displ7seg.vhd"/>
+        <Attr Name="ImportTime" Val="1607348065"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/surse-proiect/ps2_keyboard.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../surse-proiect/ps2_keyboard.vhd"/>
+        <Attr Name="ImportTime" Val="1607021031"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/surse-proiect/scan2ascii.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../surse-proiect/scan2ascii.vhd"/>
+        <Attr Name="ImportTime" Val="1607346689"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/surse-proiect/uart_tx.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../surse-proiect/uart_tx.vhd"/>
+        <Attr Name="ImportTime" Val="1607024185"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/surse-proiect/modulul_principal.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../surse-proiect/modulul_principal.vhd"/>
+        <Attr Name="ImportTime" Val="1607348069"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="modulul_principal"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/surse-proiect/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../surse-proiect/Basys3_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1607023375"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

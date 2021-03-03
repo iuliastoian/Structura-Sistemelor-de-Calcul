@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Dec  8 18:04:24 2020
+# Process ID: 4612
+# Current directory: C:/Users/iulia/Desktop/cti-an-3/SSC/proiect/big/big.runs/synth_1
+# Command line: vivado.exe -log modulul_principal.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source modulul_principal.tcl
+# Log file: C:/Users/iulia/Desktop/cti-an-3/SSC/proiect/big/big.runs/synth_1/modulul_principal.vds
+# Journal file: C:/Users/iulia/Desktop/cti-an-3/SSC/proiect/big/big.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source modulul_principal.tcl -notrace

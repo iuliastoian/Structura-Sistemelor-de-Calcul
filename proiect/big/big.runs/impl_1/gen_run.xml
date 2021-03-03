@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1607443462">
+  <File Type="BITSTR-BMM" Name="modulul_principal_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="modulul_principal_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="modulul_principal_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="modulul_principal_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="modulul_principal.tcl"/>
+  <File Type="OPT-TIMING" Name="modulul_principal_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="modulul_principal_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="modulul_principal_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="modulul_principal_reports.tcl"/>
+  <File Type="OPT-DRC" Name="modulul_principal_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="modulul_principal.hwdef"/>
+  <File Type="PWROPT-DCP" Name="modulul_principal_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="modulul_principal_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="modulul_principal_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="modulul_principal_placed.dcp"/>
+  <File Type="PLACE-IO" Name="modulul_principal_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="modulul_principal_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="modulul_principal_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="modulul_principal_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="modulul_principal_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="modulul_principal_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="modulul_principal_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="modulul_principal_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="modulul_principal_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="modulul_principal.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="modulul_principal_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="modulul_principal_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="modulul_principal_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="modulul_principal.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="modulul_principal_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="modulul_principal_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="modulul_principal_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="modulul_principal_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="modulul_principal_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="modulul_principal_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="modulul_principal_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="modulul_principal.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="modulul_principal_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="modulul_principal_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="modulul_principal_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="modulul_principal_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="modulul_principal_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="modulul_principal_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="modulul_principal_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="modulul_principal_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="modulul_principal_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="modulul_principal_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="modulul_principal_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="modulul_principal_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="modulul_principal_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="modulul_principal_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="modulul_principal_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="modulul_principal_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="modulul_principal_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="modulul_principal_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="modulul_principal_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="modulul_principal_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="modulul_principal_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="modulul_principal.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="modulul_principal_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="modulul_principal.rbt"/>
+  <File Type="BITSTR-NKY" Name="modulul_principal.nky"/>
+  <File Type="PDI-FILE" Name="modulul_principal.pdi"/>
+  <File Type="RCFI_FILE" Name="modulul_principal.rcfi"/>
+  <File Type="CFI_FILE" Name="modulul_principal.cfi"/>
+  <File Type="RNPI_FILE" Name="modulul_principal.rnpi"/>
+  <File Type="NPI_FILE" Name="modulul_principal.npi"/>
+  <File Type="RBD_FILE" Name="modulul_principal.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="modulul_principal.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="modulul_principal.sysdef"/>
+  <File Type="BG-BGN" Name="modulul_principal.bgn"/>
+  <File Type="BG-DRC" Name="modulul_principal.drc"/>
+  <File Type="RDI-RDI" Name="modulul_principal.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/surse-proiect/debounce.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../surse-proiect/debounce.vhd"/>
+        <Attr Name="ImportTime" Val="1606994337"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/surse-proiect/debounce_clasic.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../surse-proiect/debounce_clasic.vhd"/>
+        <Attr Name="ImportTime" Val="1607077979"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/surse-proiect/displ7seg.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../surse-proiect/displ7seg.vhd"/>
+        <Attr Name="ImportTime" Val="1607348065"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/surse-proiect/ps2_keyboard.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../surse-proiect/ps2_keyboard.vhd"/>
+        <Attr Name="ImportTime" Val="1607021031"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/surse-proiect/scan2ascii.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../surse-proiect/scan2ascii.vhd"/>
+        <Attr Name="ImportTime" Val="1607346689"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/surse-proiect/uart_tx.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../surse-proiect/uart_tx.vhd"/>
+        <Attr Name="ImportTime" Val="1607024185"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/surse-proiect/modulul_principal.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../surse-proiect/modulul_principal.vhd"/>
+        <Attr Name="ImportTime" Val="1607348069"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="modulul_principal"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/surse-proiect/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../surse-proiect/Basys3_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1607023375"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
